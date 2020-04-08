@@ -1,0 +1,14 @@
+.rodape {
+  background-color: #b3ccff;
+    line-height: 50px;
+    height: 100px;
+    padding: 28px;
+    text-decoration-color: #000;
+}
+
+footer {
+  position: fixed;
+  display: block;
+  flex: 1 0 auto;
+
+}
