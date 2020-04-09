@@ -1,0 +1,43 @@
+div.banner-empresa {
+    width: 65%;
+    float: left;
+    height: 500px;
+    background-image: url(../images/bannerEmpresa.png);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+}
+
+div.login-empresa {
+    /* margin-left: 60%; */
+    height: 500px;
+    width: 35%;
+    float: right;
+    background-color: white;
+}
+
+div.conteudo-page-empresa {
+    width: 100%;
+    display: table;
+    background: black;
+}
+
+.login-empresa h2 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.login-empresa h1 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-style: initial;
+    color: #ffb366;
+    text-align: center;
+}
+
+.login-empresa p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

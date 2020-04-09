@@ -14,7 +14,7 @@
 }
 
 a#title.navbar-brand {
-    color: white;
+    color: #ffb366;
     font-size: 24px;
     padding: 26px;
 }
@@ -100,7 +100,7 @@ div#navbar.menu {}
 }
 
 .menu a:active {
-    color: #fff;
+    color: #dd4993;
 }
 
 .menu a {
@@ -111,4 +111,13 @@ div#navbar.menu {}
     text-decoration: none !important;
     color: #ffb366 !important;
     background-color: black;
+}
+
+
+/* .menu a:link {
+    color: #dd4993 !important;
+} */
+
+.menu li:active {
+    color: #dd4993;
 }

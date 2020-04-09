@@ -9,6 +9,7 @@
     width: 100%;
     flex: 1 0 auto;
     text-decoration-color: #000;
+    clear: both;
 }
 
 div.ropade p,

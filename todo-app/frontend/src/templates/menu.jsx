@@ -15,8 +15,8 @@ export default props => (
                 <ul className='nav navbar-nav navbar-ligth' >
                     {/* <li class="brand"><img id="logo" src={Logo} alt="SIMPLY BOOK"/></li> */}
                     <li><a href='#/home'>Home</a></li>
-                    <li><a href='#/page'>Empresa</a></li>
-                    <li><a href='#/about'>Colaborador</a></li>
+                    <li><a href='#/page-empresa'>Empresa</a></li>
+                    <li><a href='#/page-colaborador'>Colaborador</a></li>
                     <li><a href='#/about'>Sobre</a></li>
                 </ul>
             </div>

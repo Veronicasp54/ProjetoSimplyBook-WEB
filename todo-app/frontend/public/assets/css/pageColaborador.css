@@ -1,0 +1,83 @@
+div.banner-colaborador {
+    width: 65%;
+    float: left;
+    height: 500px;
+    background-image: url(../images/bannerColaborador.png);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+}
+
+
+/* .banner-text {
+    text-align: center;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 40%;
+} */
+
+div.login-colaborador {
+    /* margin-left: 60%; */
+    height: 500px;
+    width: 35%;
+    float: right;
+    background-color: antiquewhite;
+}
+
+div.conteudo-page-colaborador {
+    width: 100%;
+    display: table;
+    background: black;
+}
+
+div.login-logo {}
+
+.login-colaborador h2 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.login-colaborador h1 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-style: initial;
+    color: #ffb366;
+    text-align: center;
+}
+
+.login-colaborador p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.button {
+    border: 1px solid hsla(0, 0%, 0%, 0);
+    border-radius: 1.17647rem;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    height: 42px;
+    line-height: 1;
+    outline: 0;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    zoom: 1;
+}
+
+.Login {
+    padding: 60px 0;
+}
+
+.Login form {
+    margin: 0 auto;
+    max-width: 320px;
+}
