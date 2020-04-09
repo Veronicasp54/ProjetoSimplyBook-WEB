@@ -1,0 +1,114 @@
+/* Fundo do menu */
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+#navbar {
+    width: 100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+a#title.navbar-brand {
+    color: white;
+    font-size: 24px;
+    padding: 26px;
+}
+
+div.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: initial;
+}
+
+div#app.container {
+    padding: 0px;
+}
+
+div.container ul {
+    padding-top: 10px;
+}
+
+div#navbar.menu {}
+
+.navbar-default {
+    background-color: black;
+}
+
+
+/* Faz os <li>s ficarem na horizontal */
+
+.menu>li {
+    float: left;
+    position: relative;
+    text-decoration-color: bisque;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+
+/* Configura os links do menu principal */
+
+.menu>li>a {
+    padding: 20px;
+    margin: 0 5px;
+    background: black;
+}
+
+
+/* Configura o fundo do menu principal quando com mouse hover */
+
+.menu>li:hover a {
+    background: #000;
+    color: #fff;
+}
+
+
+/* Clearfix para o menu */
+
+.menu:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.menu-fixed-bottom .dropdown .caret {
+    content: "";
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+}
+
+.menu a:active {
+    color: #fff;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.menu a:hover {
+    text-decoration: none !important;
+    color: #ffb366 !important;
+    background-color: black;
+}

@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
-    "mdbreact": "^4.25.5"
+    "mdbreact": "^4.25.5",
+    "react-responsive-carousel": "^3.1.57"
   }
 }

@@ -1,8 +1,10 @@
 import 'modules/bootstrap/dist/css/bootstrap.min.css'
 import 'modules/font-awesome/css/font-awesome.min.css'
-import '../templates/css/carousel.css'
-import '../templates/css/footer.css'
-import '../templates/css/containers.css'
+import '../../public/assets/css/carousel.css'
+import '../../public/assets/css/footer.css'
+import '../../public/assets/css/containers.css'
+import '../../public/assets/css/menu.css'
+import '../../public/assets/css/all.css'
 
 import React from 'react'
 import Menu from '../templates/menu'

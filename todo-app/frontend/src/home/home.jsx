@@ -1,12 +1,12 @@
 import React, {Component} from 'react'
-import ContainerUm from './containerUm'
+import Carousel from '../templates/carousel/carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default class Todo extends Component{
     render() {
         return(
             <div>
-                <h1>Home</h1>
-                <ContainerUm/>
+                <Carousel></Carousel>
             </div>
         )
     }

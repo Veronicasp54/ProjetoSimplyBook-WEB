@@ -3,12 +3,8 @@
     line-height: 50px;
     height: 100px;
     padding: 28px;
+    position: fixed;
+    display: block;
+    flex: 1 0 auto;
     text-decoration-color: #000;
-}
-
-footer {
-  position: fixed;
-  display: block;
-  flex: 1 0 auto;
-
 }
