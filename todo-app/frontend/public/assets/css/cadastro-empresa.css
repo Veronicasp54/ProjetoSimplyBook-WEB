@@ -1,0 +1,100 @@
+.paper {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    margin: 2px;
+    background-color: white;
+}
+
+.form {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.submit {
+    margin: 4px;
+}
+
+main.MuiContainer-maxWidthXs {
+    width: 100%;
+    max-width: 0 auto;
+}
+
+h1.MuiTypography-h5 {
+    font-size: 2rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    padding-top: 8px;
+    color: rgb(65, 65, 65);
+    margin-bottom: 14px;
+    align-items: left;
+}
+
+image.MuiAvatar-img {
+    float: left;
+}
+
+.paper {
+    margin-top: 5vh;
+    display: flex;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    /* width: 60%; */
+}
+
+
+/* Botao personalizado */
+
+.submit :hover {
+    background-color: transparent;
+}
+
+button.MuiButton-containedPrimary {
+    background-color: transparent;
+}
+
+button.MuiButton-fullWidth {
+    width: 24%;
+    float: right;
+    margin-right: 0px;
+}
+
+button.MuiButton-containedPrimary:hover {
+    background-color: rgba(255, 255, 255, 0.582);
+}
+
+button.MuiButton-root {
+    color: rgba(0, 0, 0, 0.87);
+    /* padding: 6px 16px; */
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    margin-top: 24px;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    margin-bottom: 6%;
+}
+
+a.link-login {
+    color: #FF9933;
+    align-items: center;
+    margin-bottom: 16%;
+    margin-right: 0px;
+    font-size: 1.3rem;
+}

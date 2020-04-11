@@ -154,8 +154,18 @@ div.MuiAvatar-colorDefault {
         font-size: 30px;
     }
     
+    a.link-login {
+        color: #FF9933;
+        align-items: center;
+        margin-right: 40px;
+    }
+    /* a {
+        color: gray;
+    }
+     */
+    
     a {
-        color: black;
+        color: rgb(110, 109, 109);
     }
     
     a.MuiTypography-colorPrimary {

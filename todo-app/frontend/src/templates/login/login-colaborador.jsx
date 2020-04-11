@@ -5,27 +5,28 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 // import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
-import '../../public/assets/css/pageColaborador.css'
-import Logo from '../../public/assets/images/logo.png'
+import '../../../public/assets/css/pageColaborador.css'
+import Logo from '../../../public/assets/images/logo.png'
+import { Link } from 'react-router';
 
-function Copyright() {
-    return (
-      <Typography variant="body2" color="textSecondary" align="center">
-        {'Copyright © '}
-        <Link color="inherit" href="#/home">
-          Simply Book
-        </Link>{' '}
-        {new Date().getFullYear()}
-        {'.'}
-      </Typography>
-    );
-  }
+// function Copyright() {
+//     return (
+//       <Typography variant="body2" color="textSecondary" align="center">
+//         {'Copyright © '}
+//         <Link color="inherit" href="#/home">
+//           Simply Book
+//         </Link>{' '}
+//         {new Date().getFullYear()}
+//         {'.'}
+//       </Typography>
+//     );
+//   }
   
 export default props => (
     <Grid container component="main" className='root'>
@@ -82,14 +83,14 @@ export default props => (
               </Link> */}
             </Grid>
             <Grid item>
-              <Link href="#" variant="body2">
-                {"Não possui uma conta? Cadastre-se"}
-              </Link>
+              <Link className='link-login' to="/cadastro-colaborador">
+                  {"Não possui uma conta? Cadastre-se"}
+                </Link>
             </Grid>
           </Grid>
-          <Box mt={5}>
+          {/* <Box mt={5}>
             <Copyright />
-          </Box>
+          </Box> */}
         </form>
       </div>
     </Grid>
