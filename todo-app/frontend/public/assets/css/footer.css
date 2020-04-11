@@ -1,15 +1,16 @@
 .rodape {
     background-color: black;
     line-height: 50px;
-    height: 200px;
+    height: 100px;
     padding-top: 6px;
-    padding-left: 20px;
+    padding-left: 6px;
     position: fixed;
     display: block;
     width: 100%;
     flex: 1 0 auto;
     text-decoration-color: #000;
     clear: both;
+    /* float: bottom; */
 }
 
 div.ropade p,
@@ -17,13 +18,14 @@ b {
     font-style: normal;
     display: inline-block;
     color: whitesmoke;
-    padding-left: 32px;
+    /* padding-left: 32px; */
     font-size: 12px;
-    margin-left: -32px;
+    /* margin-left: -32px; */
 }
 
 .rigth {
     width: 33.3%;
+    float: right;
     text-align: center;
     position: relative;
 }

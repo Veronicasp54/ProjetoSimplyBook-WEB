@@ -6,6 +6,7 @@ import About from '../about/about'
 import PageEmpresa from '../pages/pageEmpresa'
 import PageColaborador from '../pages/pageColaborador'
 
+
 export default props => (
     <Router history={hashHistory}>
         <Route path='/home' component={Home}/>

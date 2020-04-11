@@ -3,6 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import PrimeiroSlide from '../../../public/assets/images/SlideUm.png'
 import SegundoSlide from '../../../public/assets/images/SlideDois.png'
 import TerceiroSlide from '../../../public/assets/images/SlideTres.png'
+import '../../../public/assets/css/carousel.css'
 
 export default () => (
     <div className='carousel-border'>

@@ -1,4 +1,6 @@
 import React from 'react'
+import '../../public/assets/css/menu.css'
+
 // import Logo from '../../public/assets/images/logo.png'
 
 export default props => (

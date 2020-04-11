@@ -1,43 +1,163 @@
-div.banner-empresa {
-    width: 65%;
-    float: left;
-    height: 500px;
-    background-image: url(../images/bannerEmpresa.png);
-    background-size: cover;
-    background-repeat: no-repeat, repeat;
-}
-
-div.login-empresa {
-    /* margin-left: 60%; */
-    height: 500px;
-    width: 35%;
-    float: right;
-    background-color: white;
-}
-
-div.conteudo-page-empresa {
-    width: 100%;
-    display: table;
-    background: black;
-}
-
-.login-empresa h2 {
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-.login-empresa h1 {
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    font-style: initial;
-    color: #ffb366;
-    text-align: center;
-}
-
-.login-empresa p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
+    /* div.banner-empresa {
+        width: 65%;
+        float: left;
+        height: 500px;
+        background-image: url(../images/bannerEmpresa.png);
+        background-size: cover;
+        background-repeat: no-repeat, repeat;
+    }
+    
+    div.login-empresa {
+        margin-left: 60%;
+        height: 500px;
+        width: 35%;
+        float: right;
+        background-color: white;
+    }
+    
+    div.conteudo-page-empresa {
+        width: 100%;
+        display: table;
+        background: black;
+    }
+    
+    .login-empresa h2 {
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: black;
+    }
+    
+    .login-empresa h1 {
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-style: initial;
+        color: #ffb366;
+        text-align: center;
+    }
+    
+    .login-empresa p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: black;
+    }
+    
+    .box-login {
+        margin-top: 10%;
+    } */
+    
+    .root {
+        height: 80vh;
+    }
+    
+    .image {
+        background-image: url(../images/bannerEmpresa.png);
+        background-color: grey;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .paper {
+        margin-top: 10vh;
+        display: flex;
+        margin-left: 4vh;
+        margin-right: 4vh;
+        flex-direction: column;
+        align-items: center;
+        height: 60%;
+    }
+    
+    .avatar {
+        margin: 2vh;
+        background-color: grey;
+    }
+    
+    form {
+        width: '100%';
+        margin-top: 1vh;
+    }
+    
+    .submit {
+        padding: 6vh;
+    }
+    
+    span.MuiButton-label {
+        color: #FF9933;
+        font-weight: bold;
+        background-color: transparent;
+        font-size: 1.2rem;
+    }
+    
+    input.MuiInputBase-input {
+        font-size: 1rem;
+    }
+    
+    button.MuiButton-containedPrimary {
+        background-color: transparent;
+    }
+    
+    button.MuiButton-fullWidth {
+        width: 40%;
+        float: right;
+    }
+    
+    button.MuiButton-containedPrimary:hover {
+        background-color: rgba(255, 255, 255, 0.582);
+    }
+    
+    button.MuiButton-root {
+        color: rgba(0, 0, 0, 0.87);
+        padding: 6px 16px;
+        font-size: 0.875rem;
+        min-width: 64px;
+        box-sizing: border-box;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 500;
+        line-height: 1.75;
+        border-radius: 4px;
+        letter-spacing: 0.02857em;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    /* 
+div.MuiAvatar-colorDefault {
+    color: #FF9933;
+    background-color:;
+} */
+    
+    .submit :hover {
+        background-color: transparent;
+    }
+    
+    h1 {
+        color: black;
+        font-size: 30px;
+    }
+    
+    h1.MuiTypography-h5 {
+        font-size: 2rem;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        line-height: 1.334;
+        letter-spacing: 0em;
+        padding-top: 8px;
+        color: rgb(65, 65, 65);
+    }
+    
+    .title-login {
+        font-size: 30px;
+    }
+    
+    a {
+        color: black;
+    }
+    
+    a.MuiTypography-colorPrimary {
+        color: #FF9933;
+    }
