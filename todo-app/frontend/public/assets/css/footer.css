@@ -3,14 +3,45 @@
     padding: 10px;
 }
 
+a.contato {
+    color: #6E6d6D;
+    font-size: 0.9rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+a.contato :hover {
+    color: #FF9933;
+}
+
 h6.MuiTypography-h6 {
     text-align: left;
-    padding-left: 14px;
+    padding-left: 10px;
+}
+
+p.MuiTypography-colorTextSecondary {
+    color: #6E6d6D;
+}
+
+
+/* p.MuiTypography-root {
+    align-items: left;
+    margin-left: 10px;
+} */
+
+.copyright p,
+a {
+    align-items: left;
+    align-items: left;
 }
 
 a {
     text-align: right;
     padding-right: 14px;
+}
+
+a :hover {
+    color: #FF9933;
 }
 
 

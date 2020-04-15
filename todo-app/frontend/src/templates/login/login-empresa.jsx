@@ -73,6 +73,7 @@ export default props => (
             variant="contained"
             color="primary"
             className='submit'
+            href='#/area-empresa'
           >
             Entrar
           </Button>

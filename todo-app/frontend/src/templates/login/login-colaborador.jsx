@@ -9,91 +9,115 @@ import Checkbox from '@material-ui/core/Checkbox';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
-// import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
-import '../../../public/assets/css/pageColaborador.css'
-import Logo from '../../../public/assets/images/logo.png'
+import '../../../public/assets/css/pageColaborador.css';
+import Logo from '../../../public/assets/images/logo.png';
 import { Link } from 'react-router';
 
-// function Copyright() {
-//     return (
-//       <Typography variant="body2" color="textSecondary" align="center">
-//         {'Copyright © '}
-//         <Link color="inherit" href="#/home">
-//           Simply Book
-//         </Link>{' '}
-//         {new Date().getFullYear()}
-//         {'.'}
-//       </Typography>
-//     );
+// class Login extends Component {
+//   state = {
+//     email: '',
+//     password: '',
 //   }
-  
-export default props => (
-    <Grid container component="main" className='root'>
-    <CssBaseline />
-    <Grid item xs={false} sm={4} md={7} className='image-colaborador' />
-    <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
-      <div className= 'paper'>
-        <Avatar src={Logo}>
-          {/* <LockOutlinedIcon /> */}
-        </Avatar>
-        <Typography component="h1" variant="h5">
-          Login Colaborador
-        </Typography>
-        <form className='form' noValidate>
-          <TextField
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            id="email"
-            label="Email"
-            name="email"
-            autoComplete="email"
-            autoFocus
-          />
-          <TextField
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            name="password"
-            label="Senha"
-            type="password"
-            id="password"
-            autoComplete="current-password"
-          />
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Lembrar-me"
-          />
-          <Button
-            type="submit"
-            fullWidth
-            variant="contained"
-            color="primary"
-            className='submit'
-          >
-            Entrar
-          </Button>
-          <Grid container>
-            <Grid item xs>
-              {/* <Link href="#" variant="body2">
-                Forgot password?
-              </Link> */}
-            </Grid>
-            <Grid item>
-              <Link className='link-login' to="/cadastro-colaborador">
+
+//   onChange = (e) => {
+//     this.setState({
+//       [e.target.name]: e.target.value,
+//     });
+//   }
+
+  // onSubmit = async () => {
+  //   const response = await this.props.mutate({
+  //     variables: this.state,
+  //   });
+  //   const { token, refreshToken } = response.data.login;
+  //   localStorage.setItem('token', token);
+  //   localStorage.setItem('refreshToken', refreshToken);
+  // }
+
+  // render() {
+
+    export default props => (
+      <Grid container component="main" className='root'>
+      <CssBaseline />
+      <Grid item xs={false} sm={4} md={7} className='image-colaborador' />
+      <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
+        <div className= 'paper'>
+          <Avatar src={Logo}></Avatar>
+          <Typography component="h1" variant="h5">
+            Login Colaborador
+          </Typography>
+          <form className='form' noValidate>
+            <TextField
+              variant="outlined"
+              margin="normal"
+              required
+              fullWidth
+              id="email"
+              label="Email"
+              name="email"
+              autoComplete="email"
+              autoFocus
+            />
+            <TextField
+              variant="outlined"
+              margin="normal"
+              required
+              fullWidth
+              name="password"
+              label="Senha"
+              type="password"
+              id="password"
+              autoComplete="current-password"
+            />
+            <FormControlLabel
+              control={<Checkbox value="remember" color="primary" />}
+              label="Lembrar-me"
+            />
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className='submit'
+              href='#/area-colaborador'
+            >
+              Entrar
+            </Button>
+            <Grid container>
+              <Grid item xs>
+                {/* <Link href="#" variant="body2">
+                  Forgot password?
+                </Link> */}
+              </Grid>
+              <Grid item>
+                <Link className='link-login' to="/cadastro-colaborador">
                   {"Não possui uma conta? Cadastre-se"}
                 </Link>
+              </Grid>
             </Grid>
-          </Grid>
-          {/* <Box mt={5}>
-            <Copyright />
-          </Box> */}
-        </form>
-      </div>
+            {/* <Box mt={5}>
+              <Copyright />
+            </Box> */}
+          </form>
+        </div>
+      </Grid>
     </Grid>
-  </Grid>
-)
+    )
+
+
+//   }
+// }
+
+// const mutation = gql`
+// mutation ($email: String!, $password: String!) {
+//   login(email: $email, password: $password) {
+//     token
+//     refreshToken
+//   }
+// }
+// `;
+
+// export default graphql(mutation)(Login);
+// export default (Login);
 

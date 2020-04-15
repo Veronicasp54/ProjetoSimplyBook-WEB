@@ -17,7 +17,7 @@ module.exports = {
             modules: __dirname + '/node_modules'
         }
     },
-    plugins: [ 
+    plugins: [
         new ExtractTextPlugin('app.css')
     ],
     module: {
@@ -26,7 +26,7 @@ module.exports = {
             loader: 'babel-loader',
             exclude: /node_modules/,
             query: {
-                presets: ['es2015', 'react'],
+                presets: ['es2015', 'react', 'stage-2'],
                 plugins: ['transform-object-rest-spread']
             }
         }, {
@@ -39,19 +39,18 @@ module.exports = {
             test: /\.(png|jpe?g|gif)$/i,
             loader: 'file-loader',
             options: {
-              name(resourcePath, resourceQuery) {
-                // `resourcePath` - `/absolute/path/to/file.js`
-                // `resourceQuery` - `?foo=bar`
-    
-                if (process.env.NODE_ENV === 'development') {
-                  return '[path][name].[ext]';
-                }
-    
-                return '[contenthash].[ext]';
-              },
+                name(resourcePath, resourceQuery) {
+                    // `resourcePath` - `/absolute/path/to/file.js`
+                    // `resourceQuery` - `?foo=bar`
+
+                    if (process.env.NODE_ENV === 'development') {
+                        return '[path][name].[ext]';
+                    }
+
+                    return '[contenthash].[ext]';
+                },
             },
-          }
-    ]
+        }]
 
     }
 }

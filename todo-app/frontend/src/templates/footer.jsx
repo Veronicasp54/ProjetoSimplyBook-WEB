@@ -6,13 +6,16 @@ import '../../public/assets/css/footer.css'
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="/home">
-        Simply Book
-      </Link>{' '}
+    <Typography variant="body2" color="textSecondary" align="left">
+      <Link className='contato'href="https://www.instagram.com/onix.coding/"> 
+      Portfólio de projetos: @onix.coding </Link>
+      {'© Verônica Souza P. '}
+      {'  '}
       {new Date().getFullYear()}
       {'.'}
+      <Link color="#FF9933" href="/#/home">
+        Simply Book
+      </Link>
     </Typography>
   );
 }
@@ -23,13 +26,13 @@ export default props => (
   <div>
       {/* Footer */}
       <footer className='footer'>
-          <Typography variant="h6" align="center" gutterBottom>
-            Footer
+          <Typography variant="h6" align="left" gutterBottom>
+            {/* Footer */}
           </Typography>
-          <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-            Something here to give the footer a purpose!
+          <Typography variant="subtitle1" align="left" color="textSecondary" component="p">
+            Descubra mais projetos no portfólio!
           </Typography>
-          <Copyright />
+          <Copyright className='copyright'/>
         </footer>
         {/* End footer */}
   </div>

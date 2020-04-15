@@ -134,20 +134,23 @@ span.MuiButton-label {
     font-size: 1.2rem;
 }
 
-button.MuiButton-containedPrimary {
+a.MuiButton-containedPrimary {
     background-color: transparent;
 }
 
-button.MuiButton-fullWidth {
+a.MuiButton-fullWidth {
     width: 40%;
     float: right;
+    text-align: center;
+    letter-spacing: 0.50rem;
+    align-items: center;
 }
 
-button.MuiButton-containedPrimary:hover {
+a.MuiButton-containedPrimary:hover {
     background-color: rgba(255, 255, 255, 0.582);
 }
 
-button.MuiButton-root {
+a.MuiButton-root {
     color: rgba(0, 0, 0, 0.87);
     padding: 6px 16px;
     font-size: 0.875rem;
