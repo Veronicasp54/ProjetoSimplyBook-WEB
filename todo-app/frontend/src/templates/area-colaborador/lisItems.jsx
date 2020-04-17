@@ -8,6 +8,7 @@ import TodayIcon from '@material-ui/icons/Today';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import { grey } from '@material-ui/core/colors';
 
+// onClick={event =>  window.location.href='#/home'}
 
 export const mainListItems = (
   <div>
