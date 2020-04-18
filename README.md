@@ -4,13 +4,16 @@
 
 ## Background Do Projeto 
 
-* Carousel Model
+* **PÁGINA INICIAL**
+
 ![Image of Model Carosel](imagem-web.png)
 
-* Empresa
+* **EMPRESA**
+
 ![Image of Empresa](empre.png)
 
-*Colaborador
+* **COLABORADOR**
+
 ![Image of Colaborador](empre.png)
 
 
@@ -60,7 +63,7 @@ Seu aplicativo está pronto para ser implantado!
 ...
 
 ## Versioning
-    **1.10.4-beta** 
+    1.10.4-beta 
 
 ## Authors
 
