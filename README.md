@@ -6,13 +6,15 @@
 
 ### Pré-requisitos
 
-*Sistema Operacional 
+* Sistema Operacional 
      Microsoft Windows 7 (CORE I5)
-     
-*IDE
+
+### Ferramentas 
+
+* IDE
     VSCODE Visual Studio Code
 
-*Compilador 
+* Compilador 
     CMDER
 
 
@@ -20,7 +22,7 @@
 
 No diretório do projeto (frontend), você pode executar:
 
-_NPM RUN DEV_
+**NPM RUN DEV**
 Iniciali-za a construção do projeto no console, e ao final será exibido:
 Executa o aplicativo no modo de desenvolvimento.
 Abra http://localhost:8080 para visualizá-lo no navegador.
@@ -31,7 +33,7 @@ Você também verá erros de no console.
 Inicia o corredor de teste no modo de observação interativo.
 Consulte a seção sobre a execução de testes para obter mais informações.
 
-_NPM RUN PRODUCTION_
+**NPM RUN PRODUCTION**
 Cria o aplicativo para produção na pasta de compilação.
 Ele agrupa corretamente o React no modo de produção e otimiza a construção para obter o melhor desempenho.
 
@@ -48,11 +50,11 @@ Seu aplicativo está pronto para ser implantado!
 ...
 
 ## Versioning
-    *1.10.4-beta
+    *1.10.4-beta*
 
 ## Authors
 
-* **Verônica Souza** - [Pórtfolio](https://www.instagram.com/onix.coding/)
+* **Verônica Souza** - [Pórtfolio de Projeto informal](https://www.instagram.com/onix.coding/)
 
 ## Agradecimentos
 
