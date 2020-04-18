@@ -2,7 +2,17 @@
    
  O projeto ***SIMPLY BOOK*** foi desenvolvido para interação entre toda organização. Com o objetivo de ]]]]centralizar todas as reuniões entre colaboradores da empresa, além de gerar uma maior organização e visibilidade dos passos tomados pela empresa. Tem como intuito dar a praticidade necessária para os processos. Para isto foi desenvolvida uma aplicação android com as seguintes funcões: Reserva de Salas (Marcar reuniões), Ampla vizualização do calendário da empresa e "Cardápio de Salas" e o Perfil básico. Já está aplicação WEB, ainda está sendo desenvolvida com intuito de implementar a administração da empresa criação das salas, supervisão das reuniões e demais componentes.
 
-## Começando
+## Background Do Projeto 
+
+* Carousel Model
+![Image of Model Carosel](imagem-web.png)
+
+* Empresa
+![Image of Empresa](empre.png)
+
+*Colaborador
+![Image of Colaborador](empre.png)
+
 
 ### Pré-requisitos
 
@@ -50,7 +60,7 @@ Seu aplicativo está pronto para ser implantado!
 ...
 
 ## Versioning
-    *1.10.4-beta*
+    **1.10.4-beta** 
 
 ## Authors
 
