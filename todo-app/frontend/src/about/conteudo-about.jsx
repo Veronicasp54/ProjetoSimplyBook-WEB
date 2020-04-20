@@ -1,5 +1,5 @@
 import React from 'react'
-import PageHeader from '../templates/pageHeader';
+import PageHeader from '../componentes/pageHeader';
 import '../../public/assets/css/about.css'
 // import BannerPrincipal from '../../public/assets/images/banner-principal.png'
 

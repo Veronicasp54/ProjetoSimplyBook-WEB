@@ -9,8 +9,8 @@ import Container from '@material-ui/core/Container';
 import '../../../public/assets/css/cadastro-empresa.css';
 import Logo from '../../../public/assets/images/avatar-empresa.png';
 import {Link} from 'react-router';
-import Menu from '../menu';
-import Footer from '../footer';
+import Menu from '../../componentes/menu';
+import Footer from '../../componentes/footer';
 
 class CadastroEmpresa extends Component {
 

@@ -1,0 +1,33 @@
+button.MuiFab-primary {
+    color: black;
+    background-color: #ffb366;
+}
+
+.fab-icon {
+    float: right;
+    padding: 30px;
+    /* margin-top: 40%; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+button.MuiButtonBase-root.MuiFab-root.fab-button.MuiFab-primary {
+    background-color: #ffb366;
+}
+
+.fab-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.fab-button button.main {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+}

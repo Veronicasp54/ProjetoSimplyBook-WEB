@@ -1,0 +1,16 @@
+    div.container-reservas {
+        width: 100%;
+        padding: 10px;
+        height: 80vh;
+        padding: 40px;
+        background-color: whitesmoke;
+    }
+    
+    div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-4 {
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+    
+    html {
+        background-color: whitesmoke;
+    }

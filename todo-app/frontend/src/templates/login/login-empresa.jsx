@@ -14,8 +14,8 @@ import '../../../public/assets/css/pageEmpresa.css';
 import Logo from '../../../public/assets/images/logo.png';
 // import CadastroEmp from '../cadastro/cadastro-empresa';
 import { Link } from 'react-router';
-import Menu from '../menu';
-import Footer from '../footer';
+import Menu from '../../componentes/menu';
+import Footer from '../../componentes/footer';
 
 class LoginEmpresa extends Component {
 
@@ -67,7 +67,7 @@ class LoginEmpresa extends Component {
                         variant="contained"
                         color="primary"
                         className='submit'
-                        href='#/area-empresa'
+                        href='#/area-empresa/minhas-reservas'
                       >
                         Entrar
                       </Button>

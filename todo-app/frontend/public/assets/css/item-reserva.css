@@ -1,0 +1,23 @@
+.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignLeft {
+    font-size: 2rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    padding-top: 0px;
+    color: #ffb366;
+    margin-bottom: 8%;
+    align-items: left;
+}
+
+div.MuiCardContent-root {
+    padding: 4px;
+}
+
+.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary.MuiTypography-alignLeft {
+    font-size: 1.2rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}

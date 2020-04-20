@@ -12,8 +12,8 @@ import Typography from '@material-ui/core/Typography';
 import '../../../public/assets/css/pageColaborador.css';
 import Logo from '../../../public/assets/images/logo.png';
 import { Link } from 'react-router';
-import Menu from '../menu';
-import Footer from '../footer';
+import Menu from '../../componentes/menu';
+import Footer from '../../componentes/footer';
 
 class LoginColaborador extends Component {
 //   state = {
@@ -82,7 +82,7 @@ class LoginColaborador extends Component {
                   variant="contained"
                   color="primary"
                   className='submit'
-                  href='#/area-colaborador'
+                  href='#/area-colaborador/minhas-reservas'
                 >
                   Entrar
                 </Button>

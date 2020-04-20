@@ -9,8 +9,8 @@ import Container from '@material-ui/core/Container';
 import '../../../public/assets/css/cadastro-colaborador.css';
 import Logo from '../../../public/assets/images/avatar-colaborador.png';
 import {Link} from 'react-router';
-import Menu from '../menu';
-import Footer from '../footer';
+import Menu from '../../componentes/menu';
+import Footer from '../../componentes/footer';
 
 
 class CadastroColaborador extends Component {
